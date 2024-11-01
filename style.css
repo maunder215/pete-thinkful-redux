@@ -1,0 +1,142 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+/* Basic Styles */
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #eae2b7;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  color: #003049;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 0 20px; /* Adds some space on the sides for alignment */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem; /* Adjust the size as needed to align with nav */
+}
+
+nav a {
+  color: #d62828;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px; /* Adds spacing between nav links */
+}
+
+
+nav a:hover {
+  color: #f77f00;
+}
+
+/* About Section */
+.about-section {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.about-text p, .about-text ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  text-align: center;
+}
+
+.portfolio-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.portfolio-item {
+  max-width: 200px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+hr {
+  padding-right: 30%;
+  border: none;
+  height: 1px;
+  background-color: #003049;
+  margin: 40px 0;
+  width: 30%;
+  /* float: right; */
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+}
+
+.contact-section ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  text-align: left;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.contact-section a {
+  color: #d62828;
+}
+
+.contact-section a:hover {
+  color: #f77f00;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 40px;
+}
